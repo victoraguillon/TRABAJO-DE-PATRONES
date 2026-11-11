@@ -1,0 +1,30 @@
+Realizar un informe donde se explique el desarrollo de una librería EXTENSIBLE que permita el procesamiento de archivos csv mediante métodos de un objeto.  
+
+Requisitos librería:
+
+Dicha librería debe funcionar siguiendo los principios SOLID:
+
+- S: Principio de responsabilidad única.
+- O: Principio de abierto/cerrado.
+- L: Principio de sustitución de liskov.
+- I: Principio de segregación de interface.
+- D: Principio de inversión de dependencias.
+
+La librería debe de tener la capacidad de ofrecer extender sus capacidades mediante la implementación de código propio para procesar archivos  csv sin alterar su propio código.
+
+Las funciones básicas de la librería son:
+
+- Obtener el archivo csv a procesar y crear un objeto que lo represente (por defecto la representación de todos sus datos es String).
+- Permitir quitar o agregar filas o columnas del objeto creado.
+- Imprimir en pantalla la tabla.
+- Permitir extender sus capacidades o modificar el resultado final de las funciones de arriba mediante la utilización de código propio.
+
+Requisitos Informe:
+
+1. Explicación de la librería, sus funcionalidades y como siguen los principios SOLID.
+2. Dentro del informe debe de estar en los anexos o como parte de la explicación del desarrollo, el diagrama de clases de librería.
+3. Explicación teórica y practica de los patrones de diseño utilizados para su elaboración, además de la razón de selección de dicho patrón.
+
+ES EN GRUPO DE 3 MAXIMO, SE PUEDE HACER INDIVIDUAL O EN PAREJA.
+
+EL INFORME DEBE SE DEBE DE ENTREGAR EN CONJUNTO CON UN ENLACE A UN REPOSITORIO CON LA LIBRERIA, DENTRO DEL REPO DEBE DE EXISTIR UN README DONDE SE EXPLIQUE COMO UTILIZAR LA LIBRERIA Y COMO EXTENDER SUS CARACTERISTICAS SIN ALTERAR EL CODIGO BASE.

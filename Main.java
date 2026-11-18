@@ -70,7 +70,7 @@ public class Main {
     private static void mostrarExtensionPropia() {
         System.out.println("========== 4. EXTENSIÓN SIN TOCAR LA LIBRERÍA ==========");
         System.out.println("TransformacionMayusculas e ImpresorConAsteriscos son de ejemplo:");
-        System.out.println("no pertenecen a la librería y no se modificó ningún archivo para usarlas.");
+        System.out.println("no pertenecen a la librería y no se modificó ningún archivo.");
         System.out.println();
 
         ImpresorTabla impresor = new ImpresorConAsteriscos(new ImpresorConsola());

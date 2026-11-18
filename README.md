@@ -4,7 +4,7 @@ Librería en Java para leer archivos CSV y operar sobre ellos como objetos, pens
 ampliarse con código propio sin modificar la librería.
 
 **Materia:** Programación Orientada a Objetos
-**Integrantes:** Victor Aguillon · Rubén · Bula
+**Integrantes:** Victor Aguillon · Rubén Adarme · Rafael Bula
 **Repositorio:** https://github.com/victoraguillon/TRABAJO-DE-PATRONES
 
 ---

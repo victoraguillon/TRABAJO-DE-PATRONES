@@ -29,7 +29,7 @@ public class ImpresorConsola implements ImpresorTabla {
     private List<Integer> calcularAnchos(Tabla tabla) {
         List<Integer> anchos = new ArrayList<>();
         for (int columna = 0; columna < tabla.getCantidadColumnas(); columna++) {
-            anchos.add(tabla.getEncabezado(columna).length());
+            anchos.add(Math.max(1, tabla.getEncabezado(columna).length()));
         }
         for (int fila = 0; fila < tabla.getCantidadFilas(); fila++) {
             for (int columna = 0; columna < tabla.getCantidadColumnas(); columna++) {
